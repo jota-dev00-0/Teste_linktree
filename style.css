@@ -1,0 +1,62 @@
+.dm-mono-light {
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: normal; }
+body{
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+    
+      
+}
+.icone{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+h3{ display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: aqua;
+    width: 200px;
+    border-radius: 5px;
+}
+div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    padding: 20px;
+    gap: 12px;
+}
+
+div > a {
+    justify-content: center;
+    align-items: center;
+    flex-flow: nowrap column;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 247, 255);
+    border: 2px solid rgba(66, 216, 111, 0.842);
+    padding: 20px 15px;
+    background-color: rgb(21, 63, 47);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    flex-wrap: nowrap;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
